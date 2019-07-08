@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Literata&display=swap');
+
+/*font-family: 'Oswald', sans-serif;*/
+/*font-family: 'Noto Sans', sans-serif;*/
+/*font-family: 'Literata', serif;*/
+
+*{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+/*    background: #ACC4C3;*/
+   background: #E6E9ED;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+header{
+    position: relative;
+    padding: 15px;
+    display: block;
+}
+
+nav{
+    position: absolute;
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 4px;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 6px 0px;
+}
+
+nav a:hover{
+    background: #FDCD00;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #FDCD00;
+}
+
+#name{
+    color: #000;
+}
+
+li {
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    padding: 20px;
+    margin-top:10px;
+    margin-bottom: 10px;
+/*    border: 2px solid #000;*/
+}
+
+.container-fluid{
+    position: relative;
+}
+
+ 
+@keyframes zoom{
+	0%{
+		transform:scale(1, 1);
+	}
+	100%{
+		transform:scale(1.10, 1.10);
+	}
+}
+
+#pic1:hover, #pic2:hover, #pic3:hover{
+	animation:1s zoom ease-out 1;
+		transform:scale(1.10, 1.10);
+}
+
+#modalb {
+    padding: 10px;
+    margin: 15px;
+    background-color:whitesmoke;
+}
+
+#modalb h1{
+    font-family: 'Literata', serif;
+}
+
+.container-fluid h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+footer{
+    text-align: center
+}
